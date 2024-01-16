@@ -1,0 +1,7 @@
+// comment_with_spaces.sjava: checks that a comment line that starts with a space
+// is invalid. should return 1.
+
+void test() {
+  // a comment
+  return;
+}

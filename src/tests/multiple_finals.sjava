@@ -1,0 +1,7 @@
+// multiple_finals.sjava: this test checks that if "final" is written at
+// the start of the line, all variables are final, and should return 1.
+void test() {
+    final boolean a = true, b = false;
+    b = true;
+    return;
+}

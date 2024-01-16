@@ -1,0 +1,6 @@
+// same_name_as_param.sjava: this test should return 1, creating
+// a variable name = an existing parameter name.
+void test(int param) {
+   int param = 2;
+   return;
+}

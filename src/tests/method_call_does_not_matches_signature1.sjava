@@ -1,0 +1,8 @@
+//method_call_does_not_matches_signature1.jsava:
+//check if number of parameters in method call is as in method signature
+//should return 1
+
+void signature( ){
+    signature ( 4);
+    return;
+}

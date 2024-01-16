@@ -1,0 +1,13 @@
+//valid_while_if_statements.sjava:
+//checks validity of conditions in if and while
+//this test should return 0
+
+void method(boolean bool){
+    if (   true || 1&& 1.1){
+        boolean a=true;
+        while(a ){
+            int z=4;
+        }
+    }
+    return;
+}

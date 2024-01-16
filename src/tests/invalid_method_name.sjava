@@ -1,0 +1,7 @@
+//invalid_method_name.jsava:
+//method name should start with a letter
+//should return 1
+
+void _methodName(){
+    return;
+}

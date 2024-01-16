@@ -1,0 +1,9 @@
+//empty_if_condition.sjava:
+//must be condition inside parentheses
+//this test should return 1
+void method(boolean bool){
+    if(){
+        int x=2;
+    }
+    return;
+}

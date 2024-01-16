@@ -1,0 +1,6 @@
+//invalid_return_type.sjava:
+//the only valid return type of the method is void
+//this test should return 1
+boolean isValidSignature(){
+ return;
+}

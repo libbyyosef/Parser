@@ -1,0 +1,8 @@
+//method_call_matches_signature.jsava:
+//checks if type of method call matches method signature varibles types
+//should return 0
+
+void signature(int number, String str, double dNumber, boolean bool, char c){
+    signature(4, "str", 2.2, true, 'c');
+    return;
+}

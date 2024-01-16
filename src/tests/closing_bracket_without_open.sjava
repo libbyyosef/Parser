@@ -1,0 +1,11 @@
+// closing_bracket_without_open.sjava: this test checks that we don't accept
+// a closing bracket without an opening one as legal. should return 1
+
+void test(){
+    if(true){
+      if(false) {
+      }
+    }
+    }
+    return;
+}

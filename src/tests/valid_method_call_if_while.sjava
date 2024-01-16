@@ -1,0 +1,13 @@
+//valid_method_call_if_while.jsava:
+//check validity
+//should return 0
+
+void signature(int a){
+    if(true || false || 1){
+        signature(4);
+    }
+    while(1){
+    signature (0);
+    }
+    return;
+}

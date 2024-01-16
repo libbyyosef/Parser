@@ -1,0 +1,10 @@
+//invalid_if_condition.sjava:
+//checks operator validity in condition
+//this test should return 1
+
+void method(boolean bool){
+    if (   true&&& false){
+        int y=3;
+    }
+    return;
+}

@@ -1,0 +1,9 @@
+// nested_methods.sjava: This test checks that defining nested methods isn't allowed,
+// should return 1.
+
+void func(int a, int b) {
+    void func2(int c) {
+        return;
+    }
+    return;
+}

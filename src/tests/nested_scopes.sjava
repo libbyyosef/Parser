@@ -1,0 +1,11 @@
+// nested_scopes.sjava: This test checks that the inner scope overrides
+// type and final from outer one, should return 0
+
+void test() {
+   final int a = 1;
+   if(true) {
+      boolean a;
+      a = false;
+   }
+   return;
+}

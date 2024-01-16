@@ -1,0 +1,8 @@
+//method_call_does_not_matches_signature.jsava:
+//method call values  doesn't match method signature
+//should return 1
+
+void signature(int number, String str, double dNumber, boolean bool, char c){
+    signature(4, "str", 'a', true, 2.2);
+    return;
+}

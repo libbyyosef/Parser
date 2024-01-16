@@ -1,0 +1,9 @@
+//empty_while_condition.sjava:
+//must be condition inside parentheses
+//this test should return 1
+void method(boolean bool){
+    while(){
+        int t=0;
+    }
+    return;
+}

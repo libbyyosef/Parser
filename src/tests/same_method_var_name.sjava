@@ -1,0 +1,12 @@
+// same_method_var_name.sjava: Checks that declaring a method with the same name
+// as a variable is OK. should return 0.
+
+void func_name() {
+  return;
+}
+
+void test(){
+  String func_name = "str";
+  String using_func = func_name;
+  return;
+}

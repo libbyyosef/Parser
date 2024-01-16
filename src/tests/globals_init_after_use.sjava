@@ -1,0 +1,9 @@
+// globals_init_after_use.sjava: this test checks that even if a global is created
+// + initialized after the function in the file, it should be usable from it. should return
+// 0.
+
+void test() {
+   a = 3;
+   return;
+}
+int a = 2;
