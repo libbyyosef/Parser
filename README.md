@@ -13,12 +13,15 @@ Welcome to the Java Code Parser library! This repository provides a comprehensiv
 - **Package: conditions**
 
 - Handles parsing and validation of condition statements, utilizing Regex patterns for accuracy.
+- 
 **Package: main**
   
 - Manages the main parsing process, integrating Regex for various pattern validations.
+
 **Package: methods**
 
 - Focuses on the parsing and validation of method-related elements, including method calls, signatures, and parameters.
+
 **Package: variables**
 
 - Manages the parsing and validation of variable-related elements, including declarations, assignments, and scopes.
@@ -27,8 +30,10 @@ Welcome to the Java Code Parser library! This repository provides a comprehensiv
 
 **Regex Integration**
 - The CommonPatterns class provides a set of constants representing Regex patterns for different types of patterns. These patterns are utilized across the program for parsing and validating input, such as variable names and types, method names, and condition statements.
+
 **Exception Handling**
 - For each possible error, specific exception classes are created to facilitate detailed error tracking during debugging. A common ParserException class serves as the base for all parsing-related exceptions.
+
 **Design Patterns**
 - **Static Utility:** The CommonPatterns class follows the Static Utility design pattern, providing a centralized source for commonly used Regex patterns.
 - **Facade:** Classes like VariableParser, VariableScope, and VariableVerifier act as facades, simplifying interactions with underlying functionality.
